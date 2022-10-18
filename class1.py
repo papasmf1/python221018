@@ -17,4 +17,8 @@ p2.name = "이순신"
 p1.print()
 p2.print() 
 
-
+#런타임시에 추가
+Person.title = "new title"
+print( p1.title )
+print( p2.title )
+print( Person.title )
