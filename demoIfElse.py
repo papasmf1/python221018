@@ -51,3 +51,9 @@ print( list(range(2000,2023)) )
 #수동으로 반복경우 
 for i in range(5):
     print(i)
+
+print("---리스트 내장---")
+lst = list(range(1,11))
+print( lst )
+print( [i**2 for i in lst if i > 5] )
+
