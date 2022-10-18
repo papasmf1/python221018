@@ -30,3 +30,24 @@ for v in d.values():
 for k,v in d.items():
     print(k, v)
 
+print("---break---")
+lst = [1,2,3,4,5,6,7,8,9,10]
+for i in lst:
+    if i > 5:
+        break 
+    print("item:{0}".format(i))
+
+print("---continue---")
+lst = [1,2,3,4,5,6,7,8,9,10]
+for i in lst:
+    if i % 2 == 1:
+        continue 
+    print("item:{0}".format(i))
+
+#수열함수:규칙이 있는 숫자의 열 
+print( list(range(10)) )
+print( list(range(1,11)))
+print( list(range(2000,2023)) )
+#수동으로 반복경우 
+for i in range(5):
+    print(i)
